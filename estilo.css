@@ -1,0 +1,50 @@
+html {
+	cursor: url(imagens/mata_mosquito.png) 30 30, auto;
+}
+
+body {
+	background-image: url(imagens/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: ;
+}
+
+.mosquito1 {
+	width: 50px;  //largura
+	height: 50px;  //altura
+}
+
+.mosquito2 {
+	width: 70px;  //largura
+	height: 70px;  //altura
+}
+
+.mosquito3 {
+	width: 190px;  //largura
+	height: 1
+	80px;  //altura
+}
+
+.ladoA {
+	tranform:  scaleX(1);
+}
+
+.ladoB {
+	transform: scaleX(-1);  //mudar de lado que o mosquito esta olhando
+}
+
+.painel {
+	position: absolute;
+	width: 190px;
+	padding: 10px;
+	left: 0px;
+	bottom: 0px;
+	border-top: solid 1px #fff;
+	background-color: #fff;
+	opacity: 0.7;
+}
+
+.vidas {
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}
